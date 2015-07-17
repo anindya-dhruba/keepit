@@ -1,0 +1,25 @@
+<div class="bg_home"></div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="jumbotron">
+                <h1><i class="fa fa-sheqel"></i> KeepIt</h1>
+                <p class="lead">Keep Everything Synced.</p>
+                <p style="font-size: 18px;">
+                    Forget to finish your task? Or always taking a diary to keep your notes? Days have changed.
+                    <br/>
+                    Let KeepIt make your life awesome.
+                    <br/>
+                    <br/>
+                    <br/>
+                    KeepIt helps you to store your notes, todo tasks, better managing them and a lot more jobs to bring happiness in your life.
+                </p>
+                <br/>
+                <p ng-if="$root.currentUser">
+                    <a ui-sref="notes" class="btn btn-success"> Add New Note</a>
+                    <a ui-sref="todos" class="btn btn-success"> Add New Todo</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
